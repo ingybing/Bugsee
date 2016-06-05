@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bugsee-Test", "Bugsee-Test\Bugsee-Test.csproj", "{A486ADAD-3153-4CA6-93B8-AC663F6B8656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bugsee-Binding", "Bugsee-Binding\Bugsee-Binding.csproj", "{76F6D931-0999-4872-A544-140C7E2A8139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76F6D931-0999-4872-A544-140C7E2A8139}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{76F6D931-0999-4872-A544-140C7E2A8139}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{76F6D931-0999-4872-A544-140C7E2A8139}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{76F6D931-0999-4872-A544-140C7E2A8139}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{76F6D931-0999-4872-A544-140C7E2A8139}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{76F6D931-0999-4872-A544-140C7E2A8139}.Release|iPhone.Build.0 = Release|Any CPU
+		{76F6D931-0999-4872-A544-140C7E2A8139}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{76F6D931-0999-4872-A544-140C7E2A8139}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{A486ADAD-3153-4CA6-93B8-AC663F6B8656}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A486ADAD-3153-4CA6-93B8-AC663F6B8656}.Debug|iPhone.Build.0 = Debug|iPhone
+		{A486ADAD-3153-4CA6-93B8-AC663F6B8656}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A486ADAD-3153-4CA6-93B8-AC663F6B8656}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A486ADAD-3153-4CA6-93B8-AC663F6B8656}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A486ADAD-3153-4CA6-93B8-AC663F6B8656}.Release|iPhone.Build.0 = Release|iPhone
+		{A486ADAD-3153-4CA6-93B8-AC663F6B8656}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A486ADAD-3153-4CA6-93B8-AC663F6B8656}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
