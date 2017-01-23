@@ -19,7 +19,7 @@
     </br>
     -cxx</br>
     </br>
-    so you're project will contain: <MtouchExtraArgs>-cxx</MtouchExtraArgs>
+    so you're project will contain: <pre>&lt;MtouchExtraArgs&gt;-cxx&lt;/MtouchExtraArgs&gt;</pre>
   </li>
   <li>
     In your AppDelegate FinishedLoading method add the Bugsee initialisation.
