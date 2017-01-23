@@ -61,30 +61,5 @@
   <ItemGroup>
     <ObjcBindingNativeFramework Include="..\Frameworks\Bugsee\Bugsee.framework" />
   </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Bugsee.bundle\Bugsee_build_phase.sh" />
-    <BundleResource Include="Resources\Bugsee.bundle\Info.plist" />
-    <BundleResource Include="Resources\Bugsee.bundle\NavigationBarColor.png" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\AXU-8f-bRn-view-hfG-th-PIc~ipad.nib\objects-8.0+.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\AXU-8f-bRn-view-hfG-th-PIc~ipad.nib\runtime.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\AXU-8f-bRn-view-hfG-th-PIc~iphone.nib\objects-8.0+.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\AXU-8f-bRn-view-hfG-th-PIc~iphone.nib\runtime.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\BGSReportController~ipad.nib\objects-8.0+.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\BGSReportController~ipad.nib\runtime.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\BGSReportController~iphone.nib\objects-8.0+.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\BGSReportController~iphone.nib\runtime.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\UITableViewController-AXU-8f-bRn~ipad.nib\objects-8.0+.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\UITableViewController-AXU-8f-bRn~ipad.nib\runtime.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\UITableViewController-AXU-8f-bRn~iphone.nib\objects-8.0+.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\UITableViewController-AXU-8f-bRn~iphone.nib\runtime.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\cAK-NL-3se-view-DYq-yH-idx~ipad.nib\objects-8.0+.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\cAK-NL-3se-view-DYq-yH-idx~ipad.nib\runtime.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\cAK-NL-3se-view-DYq-yH-idx~iphone.nib\objects-8.0+.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport.storyboardc\cAK-NL-3se-view-DYq-yH-idx~iphone.nib\runtime.nib" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport~ipad.storyboardc\Info-8.0+.plist" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport~ipad.storyboardc\Info.plist" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport~iphone.storyboardc\Info-8.0+.plist" />
-    <BundleResource Include="Resources\Bugsee.bundle\MainReport~iphone.storyboardc\Info.plist" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>

@@ -3,7 +3,7 @@
 //  Bugsee
 //
 //  Created by ANDREY KOVALEV on 29.11.15.
-//  Copyright © 2015 Bugsee. All rights reserved.
+//  Copyright © 2016 Bugsee. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

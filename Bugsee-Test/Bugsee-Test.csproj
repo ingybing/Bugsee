@@ -73,6 +73,7 @@
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchLink>None</MtouchLink>
     <BuildIpa>true</BuildIpa>
+    <MtouchExtraArgs>-cxx</MtouchExtraArgs>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -101,7 +102,6 @@
   </ItemGroup>
   <ItemGroup>
     <NativeReference Include="..\Frameworks\Bugsee\Bugsee.framework">
-      <IsCxx>False</IsCxx>
       <Kind>Framework</Kind>
     </NativeReference>
   </ItemGroup>

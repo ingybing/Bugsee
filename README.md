@@ -10,11 +10,16 @@
     Open a text editor and add the following element to the iOS UI Project:
     <pre>&lt;ItemGroup&gt;
   &lt;NativeReference Include="..\{PathToFramework}\Bugsee.framework"&gt;
-  &lt;IsCxx&gt;False&lt;/IsCxx&gt;
   &lt;Kind&gt;Framework&lt;/Kind&gt;
   &lt;/NativeReference&gt;
 &lt;/ItemGroup&gt;</pre>
-    This currently needs to be done manually. Xamarin have no UI in the IDE for this.
+    This currently needs to be done manually. Xamarin have no UI in the IDE for this.<br/>
+    <br>
+    Also you'll need to add the following mtouch additional args to the IPA BUILD section of you UI Project properties:<br/>
+    </br>
+    -cxx</br>
+    </br>
+    so you're project will contain: <MtouchExtraArgs>-cxx</MtouchExtraArgs>
   </li>
   <li>
     In your AppDelegate FinishedLoading method add the Bugsee initialisation.
